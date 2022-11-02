@@ -4,6 +4,7 @@ import { db } from "./firebase";
 import { uid } from "uid";
 import { set, ref, onValue, remove, update } from "firebase/database";
 import { useState, useEffect } from "react";
+import productData from './product';
 
 function App() {
   const [product, setProduct] = useState("");
